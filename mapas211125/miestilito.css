@@ -198,6 +198,13 @@
 	margin-bottom: 5%;
 }
 
+.pueblo_cordoba2 {
+
+	background-color: #6165d2;
+
+	width: 100%;
+}
+
 .pueblo_jaen {
 
 	background-color: #c63637;
@@ -225,6 +232,11 @@ tr {
 
 .enlaces{
 	background-color: rgba(255,255,255,0.72);
+}
+
+.enlaces_peques{
+	margin:0;
+	padding:0;
 }
 
 td{

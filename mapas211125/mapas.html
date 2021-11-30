@@ -14,6 +14,25 @@
                 Portal de
                 cartografía digital <grad style="color: green">An</grad><grad class="texto-borde">da</grad><grad style="color: green">lu</grad><grad class="texto-borde">ci</grad><grad style="color: green">a</grad>
         </h1>
+
+<script type="teXt/javascript">
+function desplegar(tabla_a_desplegar,estadoT) {
+var tablA = document.getElementById(tabla_a_desplegar);
+var estadOt = document.getElementById(estadoT);
+
+switch(tablA.style.display) {
+case "none":
+tablA.style.display = "block";
+estadOt.innerHTML = "Ocultar coneNido"
+break;
+default:
+tablA.style.display = "none";
+estadOt.innerHTML = "Mostrar coNteNido"
+break;
+}
+}
+</script>
+
 </head>
 
 <body>
@@ -858,8 +877,62 @@
                                                                 <td>local</td>
                                                         </tr>
                                                         <tr class="pueblo_cordoba">
-                                                                <td style="color:red;">X Córdoba (Capital)</td>
-                                                                <td class="enlaces"><a
+                                                                <td onClick="desplegar('tabla_a_desplegar','estadoT')">Córdoba (Capital) [+]</td>
+                                                                <td class="enlaces opacidad"><a
+                                                                                href="https://biblus--us--es.us.debiblio.com/fama2/arq/rrcartografia/cordoba/montoro/DWG%20Montoro.rar"><img
+                                                                                        src="treasure-map-line.svg" /></a>
+                                                                </td>
+                                                                <td class="enlaces opacidad"><a
+                                                                                href="https://fama.us.es/discovery/fulldisplay?docid=alma991011003339704987&context=L&vid=34CBUA_US:VU1&search_scope=all_data_not_idus&tab=all_data_not_idus&lang=es"><img
+                                                                                        src="book-alt.svg" /></a>
+                                                                </td>
+                                                                <td class="enlaces opacidad"><a
+                                                                                href="https://ws132.juntadeandalucia.es/situadifusion/pages/search2.jsf"><img
+                                                                                        src="city-hall.svg" /></a>
+                                                                </td>
+
+<!---------------------------------------------------------------------------------->
+<tr>
+<td>
+<table border="1" id="tabla_a_desplegar" style="display: none;">
+
+
+
+<tr class="pueblo_cordoba">
+                                                                <td><a style="color:black;"
+                                                                                href="https://biblus--us--es.us.debiblio.com/fama2/arq/rrcartografia/cordoba/cordoba/DWG.rar">Córdoba</a></td>
+                                                                                <td> </td>
+                                                                                 <td> </td>
+                                                                                  <td> </td>
+                                                                
+                                                                
+                                                              
+                                                        </tr>
+
+<tr class="pueblo_cordoba">
+
+
+                                                                                <td><a style="color:black;"
+                                                                                href="https://biblus--us--es.us.debiblio.com/fama2/arq/rrcartografia/cordoba/montoro/DWG%20Montoro.rar">Montoro</a></td>
+                                                                                <td> </td>
+                                                                                 <td> </td>
+                                                                                  <td> </td>
+
+
+                                                                
+                                                        </tr>
+
+
+
+
+
+
+</table>
+</td>
+</tr>
+
+<!---------------------------------------------------------------------------------->
+                                                            <!---------------------------    <td class="enlaces"><a
                                                                                 href="https://biblus--us--es.us.debiblio.com/fama2/arq/rrcartografia/cordoba/"><img
                                                                                         src="treasure-map-line.svg" /></a>
                                                                 </td>
@@ -871,7 +944,7 @@
                                                                                 href="https://www.gmucordoba.es/urbanismo/plan-general-de-ordenacion-urbanistica-pgou"><img
                                                                                         src="city-hall.svg" /></a>
                                                                 </td>
-                                                        </tr>
+                                                        </tr>------------>
                                                         <tr class="pueblo_cordoba">
                                                                 <td>Montoro</td>
                                                                 <td class="enlaces"><a
@@ -1124,6 +1197,7 @@
                         });
                 });
         </script>
+
 
         <!--<audio controls>
                 <source src="C:\Users\Nelty\OneDrive\Escritorio\Proyectos Códigos\Proyecto Cartografía\Himno.mp3"
