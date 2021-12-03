@@ -21,7 +21,8 @@
         <script type="text/javascript">
                 function destacar(num, estado) {
                         
-                        var tabla = document.getElementById(num).style.backgroundColor = "yellow";
+                        var tabla = document.getElementById(num);
+                        //tabla.style.backgroundColor = "yellow";
                         var estado = document.getElementById(estado);
 
 
@@ -29,9 +30,10 @@
 
                                 tabla.style.backgroundColor = "white";
                         }
+                        else{
+                                tabla.style.backgroundColor = "yellow";
 
-
-                        
+                        }   
 
                 }
         </script>
