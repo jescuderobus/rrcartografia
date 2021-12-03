@@ -18,6 +18,28 @@
                 <grad style="color: green">a</grad>
         </h1>
 
+        <script type="text/javascript">
+                function destacar(num, estado) {
+                        
+                        var tabla = document.getElementById(num).style.backgroundColor = "rgb(" + 0 + ", " + 255 + ", " + 0 + ")";
+                        var estado = document.getElementById(estado);
+
+                        switch (tabla.style.backgroundColor) {
+                                case "rgb(" + 0 + ", " + 255 + ", " + 0 + ")":
+                                        //tabla.style.display = "block";
+                                        tabla.style.backgroundColor = "white";
+                                        estado.innerHTML = "Ocultar coneNido";
+                                        break;
+                                default:
+                                        //tabla.style.display = "none";
+                                        tabla.style.backgroundColor = "black";
+                                        estado.innerHTML = "Mostrar coNteNido";
+                                        break;
+                        }
+
+                }
+        </script>
+
 </head>
 
 <body>
@@ -32,15 +54,17 @@
                                                 <p style="padding-top:5%;padding-left: 25%;padding-right: 25%;"
                                                         mce_style="padding-left: 60px;">
 
-                                                        <img src="mapatopo.jpg" class="img-fluid"
-                                                                usemap="#andalucia_Map"
+                                                        <img src="http://institucional.us.es/rrcartografia/images/cartografia/mapatopo.jpg"
+                                                                class="img-fluid" usemap="#topografia_Map"
                                                                 mce_src="images/cartografia/andalucia.png" border="0">
-                                                        <map id="imgmap202112214349" name="imgmap202112214349"><area
+                                                        <map id="imgmap202112214349" name="topografia_Map"><area
+                                                                        shape="rect" alt="" title="0806"
+                                                                        coords="1536,36,1740,172"
+                                                                        onClick="destacar('id0806','estado0806')" target="" /><area
                                                                         shape="rect" alt="" title=""
-                                                                        coords="1536,36,1740,172" href=""
-                                                                        target="" /><area shape="rect" alt="" title=""
-                                                                        coords="1748,36,1968,172" href=""
-                                                                        target="" /><area shape="rect" alt="" title=""
+                                                                        coords="1748,36,1968,172"
+                                                                        onClick="destacar('id0807','estado0807')" target="" /><area
+                                                                        shape="rect" alt="" title=""
                                                                         coords="1536,176,1736,316" href=""
                                                                         target="" /><area shape="rect" alt="" title=""
                                                                         coords="1744,180,1968,316" href=""
@@ -429,7 +453,7 @@
                                                                         target="" /><area shape="rect" alt="" title=""
                                                                         coords="1528,2284,1744,2424" href=""
                                                                         target="" />
-                                                                </map>
+                                                        </map>
                                                 </p>
                                                 <p class="text-center"><a class="align-content-center"
                                                                 href="mapatopo.jpg">CLICK PARA VER EL MAPA EN GRANDE</a>
@@ -441,17 +465,19 @@
                                                         <p><br></p>
                                                         <p class="text-center">NÚMERO DE HOJAS</p>
                                                 </caption>
-                                                <table class="responsive-table" style="width: 80%; margin-left: 10%;">
+                                                <table class="responsive-table" style="width: 80%; margin-left: 10%;" id="tablita">
 
 
                                                         <tr>
-                                                                <td style="height: 5%; width: 5%; text-align: center;">
+                                                                <td style="height: 5%; width: 5%; text-align: center;"
+                                                                        id="id0806"
                                                                         <a target="_blank" title="us"
                                                                                 mce_href="http://www.us.debiblio.com/login?url=https://biblus.us.es/fama2/arq/rrcartografia/andaluciaenautocad/0806.rar"
                                                                                 href="http://www.us.debiblio.com/login?url=https://biblus.us.es/fama2/arq/rrcartografia/andaluciaenautocad/0806.rar">0806</a>
                                                                 </td>
 
-                                                                <td style="height: 5%; width: 5%; text-align: center;">
+                                                                <td style="height: 5%; width: 5%; text-align: center;"
+                                                                        id="id0807">
                                                                         <a target="_blank" title="us"
                                                                                 mce_href="http://www.us.debiblio.com/login?url=https://biblus.us.es/fama2/arq/rrcartografia/andaluciaenautocad/0807.rar"
                                                                                 href="http://www.us.debiblio.com/login?url=https://biblus.us.es/fama2/arq/rrcartografia/andaluciaenautocad/0807.rar">0807</a>
