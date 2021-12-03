@@ -21,21 +21,17 @@
         <script type="text/javascript">
                 function destacar(num, estado) {
                         
-                        var tabla = document.getElementById(num).style.backgroundColor = "rgb(" + 0 + ", " + 255 + ", " + 0 + ")";
+                        var tabla = document.getElementById(num).style.backgroundColor = "yellow";
                         var estado = document.getElementById(estado);
 
-                        switch (tabla.style.backgroundColor) {
-                                case "rgb(" + 0 + ", " + 255 + ", " + 0 + ")":
-                                        //tabla.style.display = "block";
-                                        tabla.style.backgroundColor = "white";
-                                        estado.innerHTML = "Ocultar coneNido";
-                                        break;
-                                default:
-                                        //tabla.style.display = "none";
-                                        tabla.style.backgroundColor = "black";
-                                        estado.innerHTML = "Mostrar coNteNido";
-                                        break;
+
+                        if (tabla.style.backgroundColor == "yellow"){
+
+                                tabla.style.backgroundColor = "white";
                         }
+
+
+                        
 
                 }
         </script>
