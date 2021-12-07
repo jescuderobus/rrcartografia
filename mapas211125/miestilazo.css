@@ -1,13 +1,10 @@
-.cabecera {
-	background-image: url("fondocabecera1.png");
-	background-repeat: repeat-x;  
-}
+
 
 body{
-	background-color: #fef0b3;
-	margin: 0;
-	padding: 0;
-	font-size: 12px;
+background-color: #fef0b3;
+margin: 0;
+padding: 0;
+font-size: 12px;
 }
 
 h1{
