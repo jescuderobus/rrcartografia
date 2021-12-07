@@ -1,8 +1,15 @@
 
-*{
+*/*{
 	margin:auto;
     width: 99%;
+}*/
+
+.cabecera {
+	background-image: url("fondocabecera1.png");
+	background-repeat: repeat-x;  
 }
+
+
 .titulonoticia{
 
 	font-size: 350%;
@@ -258,8 +265,8 @@ td{
 
 .mapa {
 
-	max-width: 60%;
-	max-height: 60%;
+	max-width: 80%;
+	max-height: 80%;
 	/*background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Bandera_de_Andalucia.svg");
 	background-position: 120%;*/
 }
