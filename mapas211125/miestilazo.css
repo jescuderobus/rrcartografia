@@ -7,11 +7,12 @@ body{
 	background-color: #fef0b3;
 	margin: 0;
 	padding: 0;
-	font-size: 12px;
+	font-size: 22px;
 }
 
 h1{
-color: #800000;
+/*color: #800000;*/
+color:white;
 }
 
 a {
@@ -42,5 +43,11 @@ tr {
 td{
 	border:solid 1px;
 }
+
+.texto-borde {
+	-webkit-text-stroke: 2px green;
+	color: transparent; 
+  }
+
 
 /**************************************************************************************************************************/
