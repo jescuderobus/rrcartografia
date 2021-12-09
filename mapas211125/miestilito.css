@@ -284,3 +284,13 @@ body {
 
 	background-color: #eeeeee;
 }
+
+.logo{
+	height: 80%;
+   
+    border:ridge; 
+    
+    border-radius: 100%;
+
+
+}
