@@ -1,5 +1,5 @@
 .cabecera {
-	background-image: url("fondocabecera1.png");
+	background-image: url("./images/fondocabecera1.png");
 	background-repeat: repeat-x;  
 }
 
@@ -7,7 +7,7 @@ body{
 	background-color: #fef0b3;
 	margin: 0;
 	padding: 0;
-	font-size: 22px;
+	font-size: 30px;
 }
 
 body .body2{
@@ -19,8 +19,8 @@ body .body2{
 
 
 .titulonoticia{
-	font-size: 350%;
-	margin-top: 5%;
+	font-size: 250%;
+	margin-top: 2%;
 	margin-bottom: -5%;
 }
 
@@ -28,11 +28,18 @@ body .body2{
 	font-size: 250%;
 }
 
-.titulocartoetsa{
+h1 .titulocartoetsa{
 /*color: #800000;*/
+font-size: 250%;
 color:white;
 }
 
+.titulocartoetsa2{
+	/*color: #800000;*/
+	font-size: 250%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	}
 a .enlaces20 {
 	color:black;
 }
@@ -47,11 +54,8 @@ a:hover {
 	text-decoration: underline;
 }
 
-table tabla20 {
-	border: solid 0px;
-}
+table .tabla10 {
 
-table tabla10 {
 	border: solid 1px;
 	max-height: 500px;
 	max-height: 500px;
@@ -62,10 +66,6 @@ table tabla10 {
 
 tr {
 	border: solid 1px;
-}
-
-td{
-	border:solid 1px;
 }
 
 .texto-borde {
@@ -259,9 +259,9 @@ td{
 }
 
 td .td10{
-	border:solid 0px;
+	border:solid 1px;
 	text-indent: 10px;
-	font-size: xx-large;
+	font-size:10%
 }
 
 td .td20{
@@ -283,6 +283,7 @@ img{
 .mapa2 {
    height: 50%; 
    width: 50%;
+   margin-top: 5%;
    /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/Bandera_de_Andalucia.svg");
    background-position: 120%;*/
 }
