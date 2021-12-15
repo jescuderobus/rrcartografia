@@ -17,26 +17,36 @@ body .body2{
 	font-size: 22px;
 }
 
+.txtaux{
+	text-align: center;
+	color: #000000; 
+	font-size: 14px;
+}
+
+.numhojas{
+	color: #000000; 
+	font-size:56px;
+}
 
 .titulonoticia{
-	font-size: 250%;
+	font-size: 200%;
 	margin-top: 2%;
 	margin-bottom: -5%;
 }
 
 .titulonoticia2{
-	font-size: 250%;
+	font-size: 200%;
 }
 
 h1 .titulocartoetsa{
 /*color: #800000;*/
-font-size: 250%;
+font-size: 200%;
 color:white;
 }
 
 .titulocartoetsa2{
 	/*color: #800000;*/
-	font-size: 250%;
+	font-size: 200%;
 	margin-bottom: 2%;
 	margin-top: 2%;
 	}
