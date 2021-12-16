@@ -80,10 +80,10 @@ tr {
 
 .tr2 {
 
-height: 150%;
-width: 150%;
-padding:0px;
-margin-top: 10%;
+height: 100px;
+width: 100px;
+/*margin-top: 3px;
+padding-top: 5px;*/
 }
 
 .texto-borde {
@@ -279,7 +279,7 @@ margin-top: 10%;
 td .td10{
 	border:solid 1px;
 	text-indent: 10px;
-	font-size:10%
+
 }
 
 td .td20{
