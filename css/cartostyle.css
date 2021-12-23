@@ -258,9 +258,9 @@ tr {
 	margin-bottom: 5%;
 }
 
-.bibarq{
+div .container{
     
-    width: 500px;
+    max-width: 1000px;
 }
 .enlaces{
 	background-color: rgba(255,255,255,0.72);
