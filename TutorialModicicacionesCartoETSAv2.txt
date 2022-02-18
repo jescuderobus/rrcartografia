@@ -1,0 +1,52 @@
+(2019) Clave MAK del producto: P7NC4-K3X6B-D9VP7-YJKPM-X4TMJ
+(2016) FMWCN-376J6-MXW88-H2PDR-TVJ3Y
+
+En el archivo mapa_inicio.html se ha introducido una plantilla con la estructura
+general de los pueblos. la etiqueta tr (<tr>) indica una fila en la tabla, de modo
+que nuestras plantilla para el pueblo abarca desde <tr> hasta </tr> ("/" indica
+cierre de la etiqueta). para introducir un pueblo (o cualquier campo que ocupe una
+fila) debe ir despues de la etiqueta de cierre </tr> del pueblo inmediatamente
+anterior (o la capital en cuestión si es el primero), y antes de la etiqueta de 
+inicio <tr> del pueblo que va despues (en caso de no ser el último). 
+
+En la propia plantilla se indican los campos a modificar, basta leerla y cambiarlo
+por aquello que nos indica.
+
+Esta plantilla se encuentra tal cual aquí, comentada en la página 107 a 120 en
+mapa_inicio.html. Para comentar introducimos "<!--" al inicio del código y "-->"
+al final. Aquello que se encuentra entre las marcas de comentario no se mostrará
+en la web. Por tanto para que se muestre nuestro pueblo borramos de la plantilla
+tanto <!-- del inicio como --> del final (en este caso tambien
+las mayusculas "CAMBIOS PARA...").
+
+        <!--                                
+        CAMBIOS PARA INTRODUCIR PUEBLO, OBSÉRVESE CON ATENCIÓN 
+        <tr class="pueblo_PROVINCIA A LA QUE PERTENECE">
+            <td class="td10">PUEBLO A INTRODUCIR</td>
+            <td class="enlaces td10"><a
+                    href="Pegar el enlace correspondiente al dwg del pueblo"><img
+                        src="./images/treasure-map-line.svg" /></a>
+            </td>
+            <td class="enlaces td10"><img class="opacidad" src="./images/book-alt.svg" /></td>
+            <td class="enlaces td10"><a
+                    href="Introducir la web PGOU del pueblo"><img
+                        src="./images/city-hall.svg" /></a>
+            </td>
+        </tr> -->
+
+siguiendo exactamente las mismas directrices podemos modificar y añadir enlaces
+en recursos_andalucia.html y recursos_generales.html
+
+Solo modificamos ENLACE DESTINO y TEXTO A MOSTRAR
+
+De la linea 62 a 67 en recursos_andalucia.html tenemos la plantilla.
+una similar nos encontramos en recursos_generales.html entre la
+linea 62 a 68.
+
+        <!-- PLANTILLA PARA ENLACES
+            <tr class="pueblo_sevilla">
+                <td class="td20"><a class="enlaces20"
+                                    href="ENLACE DESTINO">TEXTO A MOSTRAR PARA EL ENLACE</a></td>
+            </tr>
+        -->
+
